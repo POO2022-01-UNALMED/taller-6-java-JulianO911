@@ -11,7 +11,7 @@ public class Vehiculo {
 	private int peso;
 	private String traccion;
 	private Fabricante fabricante;
-	private static int cantidadVehiculos;
+	public static int cantidadVehiculos;
 	public static ArrayList<Vehiculo> vehiculos;
 	static {
 		vehiculos = new ArrayList<>();
