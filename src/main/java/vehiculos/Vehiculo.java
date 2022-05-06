@@ -97,7 +97,7 @@ public class Vehiculo {
 		return cantidadVehiculos;
 	}
 
-	public static int setCantidadVehiculos(int cantidadVehiculos) {
+	public static void setCantidadVehiculos(int cantidadVehiculos) {
 		 Automovil.cantidadVehiculos = cantidadVehiculos;
 	}
 	
